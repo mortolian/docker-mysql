@@ -1,0 +1,4 @@
+!mysql-data/.gitkeep
+mysql-data/*.sql
+mysql-data/*.sql.gzip
+mysql-data/*.gzip
