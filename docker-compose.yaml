@@ -16,7 +16,9 @@ services:
     image: phpmyadmin:latest
     restart: always
     environment:
-      - PMA_ARBITRARY=1
+      PMA_HOST: mysql
+      PMA_ARBITRARY: 1
+      UPLOAD_LIMIT: 300M
     ports:
       - 8082:80
 
